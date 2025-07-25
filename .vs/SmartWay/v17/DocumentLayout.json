@@ -51,8 +51,7 @@
               "RelativeToolTip": "SmartWay\\Controllers\\Staff.cs",
               "ViewState": "AQIAAEEAAAAAAAAAAAAIwGMAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T10:29:47.735Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-24T10:29:47.735Z"
             },
             {
               "$type": "Document",
@@ -64,8 +63,7 @@
               "RelativeToolTip": "SmartWay.Postgres\\Interfaces\\IDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T10:35:14.394Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-25T10:35:14.394Z"
             },
             {
               "$type": "Document",
@@ -77,8 +75,7 @@
               "RelativeToolTip": "SmartWay.Postgres\\DbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAI4AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T12:41:47.843Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-24T12:41:47.843Z"
             }
           ]
         }
