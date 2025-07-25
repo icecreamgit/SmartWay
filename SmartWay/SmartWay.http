@@ -1,0 +1,6 @@
+@SmartWay_HostAddress = http://localhost:5093
+
+GET {{SmartWay_HostAddress}}/api/
+Accept: application/json
+
+###

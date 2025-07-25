@@ -1,0 +1,12 @@
+C:\VS_Tests\SmartWay\SmartWay\SmartWay.Postgres\bin\Debug\net8.0\SmartWay.Postgres.deps.json
+C:\VS_Tests\SmartWay\SmartWay\SmartWay.Postgres\bin\Debug\net8.0\SmartWay.Postgres.dll
+C:\VS_Tests\SmartWay\SmartWay\SmartWay.Postgres\bin\Debug\net8.0\SmartWay.Postgres.pdb
+C:\VS_Tests\SmartWay\SmartWay\SmartWay.Postgres\obj\Debug\net8.0\SmartWay.Postgres.csproj.AssemblyReference.cache
+C:\VS_Tests\SmartWay\SmartWay\SmartWay.Postgres\obj\Debug\net8.0\SmartWay.Postgres.GeneratedMSBuildEditorConfig.editorconfig
+C:\VS_Tests\SmartWay\SmartWay\SmartWay.Postgres\obj\Debug\net8.0\SmartWay.Postgres.AssemblyInfoInputs.cache
+C:\VS_Tests\SmartWay\SmartWay\SmartWay.Postgres\obj\Debug\net8.0\SmartWay.Postgres.AssemblyInfo.cs
+C:\VS_Tests\SmartWay\SmartWay\SmartWay.Postgres\obj\Debug\net8.0\SmartWay.Postgres.csproj.CoreCompileInputs.cache
+C:\VS_Tests\SmartWay\SmartWay\SmartWay.Postgres\obj\Debug\net8.0\SmartWay.Postgres.dll
+C:\VS_Tests\SmartWay\SmartWay\SmartWay.Postgres\obj\Debug\net8.0\refint\SmartWay.Postgres.dll
+C:\VS_Tests\SmartWay\SmartWay\SmartWay.Postgres\obj\Debug\net8.0\SmartWay.Postgres.pdb
+C:\VS_Tests\SmartWay\SmartWay\SmartWay.Postgres\obj\Debug\net8.0\ref\SmartWay.Postgres.dll
