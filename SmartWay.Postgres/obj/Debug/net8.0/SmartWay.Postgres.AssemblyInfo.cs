@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SmartWay.Postgres")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9de1d7c7b57d0c5346ed5e3e8f05bc8fa5ece86d")]
 [assembly: System.Reflection.AssemblyProductAttribute("SmartWay.Postgres")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SmartWay.Postgres")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

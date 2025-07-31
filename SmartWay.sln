@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartWay", "SmartWay\SmartW
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartWay.Postgres", "SmartWay.Postgres\SmartWay.Postgres.csproj", "{1BF4A82A-AB27-4FC0-8A25-D768A5E2C35D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartWay.EFCore", "SmartWay.EFCore\SmartWay.EFCore.csproj", "{5C7FD99D-9CD2-43BB-B20D-FA902973EECE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartWay.Domain", "SmartWay.Domain\SmartWay.Domain.csproj", "{89AB4B8D-DF2D-459B-91D0-81CF011CF96A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{1BF4A82A-AB27-4FC0-8A25-D768A5E2C35D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BF4A82A-AB27-4FC0-8A25-D768A5E2C35D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BF4A82A-AB27-4FC0-8A25-D768A5E2C35D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C7FD99D-9CD2-43BB-B20D-FA902973EECE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C7FD99D-9CD2-43BB-B20D-FA902973EECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C7FD99D-9CD2-43BB-B20D-FA902973EECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C7FD99D-9CD2-43BB-B20D-FA902973EECE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89AB4B8D-DF2D-459B-91D0-81CF011CF96A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89AB4B8D-DF2D-459B-91D0-81CF011CF96A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89AB4B8D-DF2D-459B-91D0-81CF011CF96A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89AB4B8D-DF2D-459B-91D0-81CF011CF96A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

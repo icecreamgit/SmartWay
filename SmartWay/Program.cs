@@ -1,6 +1,13 @@
+using Microsoft.AspNetCore.Diagnostics;
+using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using SmartWay.EFCore;
 using SmartWay.Postgres;
 using SmartWay.Postgres.Interfaces;
 using SmartWay.Postgres.Models;
+using SmartWay.Services;
+using System.ComponentModel.DataAnnotations;
 
 
 ILoggerEasy logger = new LoggerEasy();
@@ -10,10 +17,16 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddScoped<DbContext>(xx => new DbContext(connectionString, logger));
+builder.Services.AddScoped<SmartWay.Postgres.DbContext>(xx => new SmartWay.Postgres.DbContext(connectionString, logger));
+builder.Services.AddDbContext<AppDbContext>(options => options.UseNpgsql(connectionString));
+
+builder.Services.AddScoped<StaffEFCoreService>();
+builder.Services.AddScoped<ILoggerEasy, LoggerEasy>();
 
 
 var app = builder.Build();
+
+
 
 if (app.Environment.IsDevelopment())
 {

@@ -10,3 +10,7 @@ C:\VS_Tests\SmartWay\SmartWay\SmartWay.Postgres\obj\Debug\net8.0\SmartWay.Postgr
 C:\VS_Tests\SmartWay\SmartWay\SmartWay.Postgres\obj\Debug\net8.0\refint\SmartWay.Postgres.dll
 C:\VS_Tests\SmartWay\SmartWay\SmartWay.Postgres\obj\Debug\net8.0\SmartWay.Postgres.pdb
 C:\VS_Tests\SmartWay\SmartWay\SmartWay.Postgres\obj\Debug\net8.0\ref\SmartWay.Postgres.dll
+C:\VS_Tests\SmartWay\SmartWay\SmartWay.Postgres\obj\Debug\net8.0\SmartWay.Postgres.sourcelink.json
+C:\VS_Tests\SmartWay\SmartWay\SmartWay.Postgres\bin\Debug\net8.0\SmartWay.Domain.dll
+C:\VS_Tests\SmartWay\SmartWay\SmartWay.Postgres\bin\Debug\net8.0\SmartWay.Domain.pdb
+C:\VS_Tests\SmartWay\SmartWay\SmartWay.Postgres\obj\Debug\net8.0\SmartWay.1AE830DE.Up2Date
