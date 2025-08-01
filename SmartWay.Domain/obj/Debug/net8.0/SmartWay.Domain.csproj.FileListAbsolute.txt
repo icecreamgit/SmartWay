@@ -1,0 +1,14 @@
+C:\VS_Tests\SmartWay\SmartWay\SmartWay.Domain\bin\Debug\net8.0\SmartWay.Domain.deps.json
+C:\VS_Tests\SmartWay\SmartWay\SmartWay.Domain\bin\Debug\net8.0\SmartWay.Domain.dll
+C:\VS_Tests\SmartWay\SmartWay\SmartWay.Domain\bin\Debug\net8.0\SmartWay.Domain.pdb
+C:\VS_Tests\SmartWay\SmartWay\SmartWay.Domain\obj\Debug\net8.0\SmartWay.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\VS_Tests\SmartWay\SmartWay\SmartWay.Domain\obj\Debug\net8.0\SmartWay.Domain.AssemblyInfoInputs.cache
+C:\VS_Tests\SmartWay\SmartWay\SmartWay.Domain\obj\Debug\net8.0\SmartWay.Domain.AssemblyInfo.cs
+C:\VS_Tests\SmartWay\SmartWay\SmartWay.Domain\obj\Debug\net8.0\SmartWay.Domain.csproj.CoreCompileInputs.cache
+C:\VS_Tests\SmartWay\SmartWay\SmartWay.Domain\obj\Debug\net8.0\SmartWay.Domain.sourcelink.json
+C:\VS_Tests\SmartWay\SmartWay\SmartWay.Domain\obj\Debug\net8.0\SmartWay.Domain.dll
+C:\VS_Tests\SmartWay\SmartWay\SmartWay.Domain\obj\Debug\net8.0\refint\SmartWay.Domain.dll
+C:\VS_Tests\SmartWay\SmartWay\SmartWay.Domain\obj\Debug\net8.0\SmartWay.Domain.pdb
+C:\VS_Tests\SmartWay\SmartWay\SmartWay.Domain\obj\Debug\net8.0\ref\SmartWay.Domain.dll
+C:\VS_Tests\SmartWay\SmartWay\SmartWay.Domain\bin\Debug\net8.0\SmartWay.Domain.runtimeconfig.json
+C:\VS_Tests\SmartWay\SmartWay\SmartWay.Domain\obj\Debug\net8.0\SmartWay.Domain.genruntimeconfig.cache
