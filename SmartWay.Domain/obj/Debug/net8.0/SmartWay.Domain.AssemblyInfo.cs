@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SmartWay.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+da1629a5caee7793366fd0128f99f320d575c27b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ff61ef2e85d3e35a44ddd4321940c1b5f1feb680")]
 [assembly: System.Reflection.AssemblyProductAttribute("SmartWay.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SmartWay.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
