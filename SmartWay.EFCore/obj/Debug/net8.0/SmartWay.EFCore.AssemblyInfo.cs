@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SmartWay.EFCore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ff61ef2e85d3e35a44ddd4321940c1b5f1feb680")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+12f56ca9cf42baec3fe1c57cef5c93ec697a1324")]
 [assembly: System.Reflection.AssemblyProductAttribute("SmartWay.EFCore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SmartWay.EFCore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
