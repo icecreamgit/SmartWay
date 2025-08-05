@@ -713,7 +713,10 @@
       "System.Threading.Channels/7.0.0": {},
       "SmartWay.Domain/1.0.0": {
         "runtime": {
-          "SmartWay.Domain.dll": {}
+          "SmartWay.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "SmartWay.EFCore/1.0.0": {
@@ -722,7 +725,10 @@
           "SmartWay.Domain": "1.0.0"
         },
         "runtime": {
-          "SmartWay.EFCore.dll": {}
+          "SmartWay.EFCore.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "SmartWay.Postgres/1.0.0": {
@@ -732,7 +738,10 @@
           "SmartWay.Domain": "1.0.0"
         },
         "runtime": {
-          "SmartWay.Postgres.dll": {}
+          "SmartWay.Postgres.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

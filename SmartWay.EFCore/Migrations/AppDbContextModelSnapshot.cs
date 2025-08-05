@@ -21,6 +21,60 @@ namespace SmartWay.EFCore.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
+            modelBuilder.Entity("SmartWay.Domain.Models.Blog", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<int?>("PostId")
+                        .HasColumnType("integer");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Blogs");
+                });
+
+            modelBuilder.Entity("SmartWay.Domain.Models.Post", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Author")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<int?>("BlogId")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("BlogId");
+
+                    b.ToTable("Posts");
+                });
+
             modelBuilder.Entity("SmartWay.Postgres.Models.Department", b =>
                 {
                     b.Property<int>("Id")
@@ -103,6 +157,15 @@ namespace SmartWay.EFCore.Migrations
                     b.ToTable("Passports");
                 });
 
+            modelBuilder.Entity("SmartWay.Domain.Models.Post", b =>
+                {
+                    b.HasOne("SmartWay.Domain.Models.Blog", "Blog")
+                        .WithMany("Posts")
+                        .HasForeignKey("BlogId");
+
+                    b.Navigation("Blog");
+                });
+
             modelBuilder.Entity("SmartWay.Postgres.Models.Department", b =>
                 {
                     b.HasOne("SmartWay.Postgres.Models.Employee", "Employee")
@@ -123,6 +186,11 @@ namespace SmartWay.EFCore.Migrations
                         .IsRequired();
 
                     b.Navigation("Employee");
+                });
+
+            modelBuilder.Entity("SmartWay.Domain.Models.Blog", b =>
+                {
+                    b.Navigation("Posts");
                 });
 
             modelBuilder.Entity("SmartWay.Postgres.Models.Employee", b =>

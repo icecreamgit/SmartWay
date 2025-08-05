@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Options;
+using SmartWay.Domain.Models;
 using SmartWay.EFCore;
 using SmartWay.Postgres.Models;
 
@@ -12,8 +13,11 @@ namespace SmartWay.EFCore
         public DbSet<Passport> Passports { get; set; }
         public DbSet<Department> Departments { get; set; }
 
+        public DbSet<Post> Posts { get; set; }
+        public DbSet<Blog> Blogs { get; set; }
+
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
-        
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseNpgsql("Host=localhost;Port=5438;Database=WebAppEF;Username=admin;Password=adminadmin");
@@ -29,6 +33,11 @@ namespace SmartWay.EFCore
                 .HasOne(e => e.Passport)
                 .WithOne(p => p.Employee)
                 .HasForeignKey<Passport>(d => d.EmployeeId);
+
+            modelBuilder.Entity<Blog>()
+                .HasMany(b => b.Posts)
+                .WithOne(p => p.Blog)
+                .HasForeignKey(b => b.BlogId);
         }
 
 

@@ -18,11 +18,12 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<SmartWay.Postgres.DbContext>(xx => new SmartWay.Postgres.DbContext(connectionString, logger));
-builder.Services.AddDbContext<AppDbContext>(options => options.UseNpgsql(connectionString));
+builder.Services.AddDbContext<AppDbContext>(options => options.UseNpgsql(connectionString, b => b.MigrationsAssembly("SmartWay.EFCore")));
+
 
 builder.Services.AddScoped<StaffEFCoreService>();
-builder.Services.AddScoped<ILoggerEasy, LoggerEasy>();
-
+builder.Services.AddScoped<BlogPostService>();
+builder.Services.AddSingleton<ILoggerEasy, LoggerEasy>();
 
 var app = builder.Build();
 
